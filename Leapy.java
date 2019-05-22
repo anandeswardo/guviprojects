@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Leapy
+public class Leapy
 {
   public static void main (String[]args)
   {
