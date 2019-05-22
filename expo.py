@@ -1,4 +1,3 @@
-n=int(input())
-k=int(input())
-ans=n**k
+n,h=input().split()
+ans=int(n)**int(h)
 print(ans)
