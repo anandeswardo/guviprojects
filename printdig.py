@@ -1,4 +1,3 @@
-n=int(input())
-numstr=str(n)
-for char in numstr:
+n=input()
+for char in n:
     print(char)
