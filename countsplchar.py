@@ -1,4 +1,4 @@
-sentence = input("What is your sentence?")
+sentence = input()
 a1 = sentence.count("!")
 a2 = sentence.count(".")
 a3 = sentence.count(">")
