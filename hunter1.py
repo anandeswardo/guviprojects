@@ -1,8 +1,12 @@
-n=int(input())
-list=[int(i) for i in input().split()]
-list1=[]
-for i in range (len(list)):
-    if(list.count(i)>1):
-        list1.append(i)
-list1.sort()
-print(*list1)
+#anand
+num=int(input())
+list1=[int(i) for i in input().split()]
+list2=[]
+for i in list1:
+  if(list1.count(i)>1):
+    list2.append(i)
+c=set(list2)
+if(len(c)==0):
+  print('unique')
+else:
+  print(*c)
