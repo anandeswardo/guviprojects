@@ -1,3 +1,4 @@
-k1=input().split()
-for i in range(0,len(k1)):
-    print(k1[i][::-1],end=" ")
+#anand
+str=input().split()
+for i in range(0,len(str)):
+    print(str[i][::-1],end=" ")
