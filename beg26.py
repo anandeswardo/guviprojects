@@ -1,5 +1,5 @@
 num=int(input())
-li=list(map(int,input().list()))
-li.sort()
+li=[int(i) for i in input().split()]
 for i in range(len(li)):
-    print(*li)
+    li.sort()
+print(*li)
