@@ -1,7 +1,7 @@
 #anand
 n=int(input())
 li=[int(i) for i in input().split()]
-a=li[0]
-for i in range(1,n):
-    a=a^li[i]
+for i in range(0,n):
+    for j in range(i+1,n):
+        a=li[i]^li[j]
 print(a)
