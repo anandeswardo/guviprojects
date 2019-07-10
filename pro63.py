@@ -7,4 +7,8 @@ for i in st:
   if i not in li:
     li.append(i)
     n1+=1
-print(n1)
+    if n<n1:
+       n=n1
+  else:
+    n1=0
+print(n)
