@@ -8,7 +8,7 @@ for i in range(2,n):
             s=1
     if(s==0): 
         li.append(i)
-for i in range(0,len(x)):
+for i in range(0,len(li)):
     if(li[i]==3 or li[i]%10==3):
-        a=a+x[i]
+        a=a+li[i]
 print(a)
