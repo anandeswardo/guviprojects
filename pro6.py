@@ -5,5 +5,5 @@ for i in range(n1):
     for j in range(i,n1):  
         for k in range(j,n1):
             if li[i]<li[j]<li[k]:
-                c+=1
-print(c)
+                n3+=1
+print(n3)
