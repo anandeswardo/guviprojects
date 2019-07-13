@@ -1,2 +1,2 @@
-ab=int(input())
-print(ab)
+n1=int(input())
+print(n1)
