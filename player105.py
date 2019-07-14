@@ -8,4 +8,4 @@ if(li==sorted(li)):
 else:
     for i in li:
         li1.append(li.index(i)+1)
-    print(*li1[::-1]
+    print(*li1[::-1])
