@@ -4,5 +4,5 @@ b=0
 for i in range(n1,n2+1):
     if(b%2!=0): 
         b=b+i
-    j=j+1
+        a=a+1
 print(b)
