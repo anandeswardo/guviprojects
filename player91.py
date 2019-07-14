@@ -1,2 +1,3 @@
-n=int(input())
-print(bin(n)[2:])
+#anand
+num=int(input())
+print(bin(num)[2:])
