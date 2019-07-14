@@ -1,6 +1,6 @@
 n=int(input())
 li1=list(map(int,input().split()))
-li1sort()
+li1.sort()
 a=0
 b=0
 for i in range(len(li1)):
