@@ -1,0 +1,13 @@
+n=int(input())
+li=list(map(int,input().split()))
+a=""
+while(len(li)!=0):
+    b=(len(li)//2)-1
+    if(len(li)%2!=0):
+        print(li[b+1])
+        li.pop(b+1)
+    else:
+        c=li[b]+li[b+1]
+        print(c//2)
+        li.pop(b)
+        li.pop(b)
