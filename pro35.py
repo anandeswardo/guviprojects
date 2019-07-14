@@ -11,7 +11,7 @@ while(True):
         else:
             check=False
             a1=a1+1
-            if(a1>=len(l1)):
+            if(a1>=len(li)):
              a1=0
              x1=x1+1
             break
