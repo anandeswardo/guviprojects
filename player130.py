@@ -7,4 +7,4 @@ for i in range(n1):
         li1.append(str(sum(c)))
     else:
         li1.append(str(li[i]))
-print(" ".join(s))
+print(" ".join(li1))
