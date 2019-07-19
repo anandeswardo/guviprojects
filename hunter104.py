@@ -5,4 +5,4 @@ li=[]
 for i in range(0,len(b)):
     su=su+int(b[i])
     li.append(su)
-print(sum(su))
+print(sum(li))
